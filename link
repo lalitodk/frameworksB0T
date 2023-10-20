@@ -1,0 +1,19 @@
+#!/bin/bash
+source $(pwd)/home
+link_src () {
+	bot_retorno="$lintit\n"
+	bot_retorno+="$LINE\n"
+#	bot_retorno+="Ubuntu 14 - 16 - 18 - 20 (x64)\n          Debian 7,8,9,10 (x64) \n 𝙍𝙚𝙘𝙤𝙢𝙚𝙣𝙙𝙖𝙙𝙤 𝙐𝙗𝙪𝙣𝙩𝙪 18.04 \n  🪦 Solicita Creditos de tu KEY 🛡️⚔️\n"
+	bot_retorno+="\nI N S T A L A D O R E S @drowkid01\n\n\n"
+	bot_retorno+="$LINE\n C H U M O \n\n"
+	bot_retorno+="<code>${instalador_chumo}</code>\n"
+	bot_retorno+="$LINE\n L A T A M \n\n"
+	bot_retorno+="<code>${instalador_latam}</code>\n"
+	bot_retorno+="$LINE\n C A S I T A \n\n"
+	bot_retorno+="<code>${instalador_casita}</code>\n"
+	bot_retorno+="$LINE\n R U F U S\n\n"
+	bot_retorno+="<code>${instalador_rufus}</code>\n"
+	bot_retorno+="$LINE\n"
+#	bot_retorno+="<code>${instalador_latam}</code>\n"
+msj_fun
+}

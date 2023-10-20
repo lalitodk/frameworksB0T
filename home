@@ -1,0 +1,31 @@
+#!bin/bash
+source ShellBot.sh
+source ${SRC}/menu
+source ${SRC}/ayuda
+source ${SRC}/cache
+source ${SRC}/invalido
+source ${SRC}/status
+source ${SRC}/reinicio
+source ${SRC}/myip
+source ${SRC}/id
+source ${SRC}/back_ID
+source ${SRC}/link
+source ${SRC}/listID
+source ${SRC}/gerar_key
+source ${SRC}/power
+source ${SRC}/comandos
+source ${SRC}/update
+source ${SRC}/donar
+source ${SRC}/costes
+#source ${SRC}/kill_drop.sh
+getchumo="##"
+getlatam="##"
+getrufus="##"
+getcasita="##"
+instalador_chumo="apt-get update;apt-get upgrade -y && wget https://raw.githubusercontent.com/drowkid01/modcgh/main/setup && chmod +x setup && ./setup --ADMcgh"
+instalador_latam="${getlatam}"
+instalador_rufus="${getrufus}"
+instalador_casita="${getcasita}"
+titulo="⚡|𝘿𝙧𝙤𝙬𝙆𝙂𝙀𝙉𝘽𝙤𝙩|⚡"
+owner="＠ｄｒｏｗｋｉｄ０１"
+menu="👽😎| Ｍｅｎｕ  ｐｒｉｎｃｉｐａｌ |😎👽"
